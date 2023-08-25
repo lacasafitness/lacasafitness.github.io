@@ -1,0 +1,103 @@
+body {
+    height: auto;
+    width: auto;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color:  rgba(240, 167, 10, 0.89);
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+    flex: 1;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#mancuernas img {
+    height: 300px;
+    width:300px ;
+    margin: 8px;
+}
+#ropa-deportiva img {
+    height: 300px;
+    width:300px ;
+    margin: 8px;
+}
+#pesas img {
+    height: 300px;
+    width:300px ;
+    margin: 8px;
+}
+#suplementos img {
+    height: 300px;
+    width:300px ;
+    margin: 8px;
+}
+#maquinas img {
+    height: 300px;
+    width:300px ;
+    margin: 8px;
+}
+#seccion-destino1 img{
+    height: 300px;
+    width: 240px;
+}
+#seccion-destino2 img{
+    height: 300px;
+    width: 240px;
+}
+#seccion-destino3 img{
+    height: 300px;
+    width: 240px;
+}
+#seccion-destino4 img{
+    height: 300px;
+    width: 240px;
+}
+#seccion-destino5 img{
+    height: 800px;
+    width: 600px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+}
+
+#toggle-menu {
+    display: block; /* Asegúrate de que el botón sea visible */
+    cursor: pointer; /* Cambia el cursor al hacer hover sobre el botón */
+}
+
+/* Estilos para ocultar el menú por defecto */
+#main-menu {
+    display: none;
+}
+
+/* Estilos para mostrar el menú cuando la clase "mostrar" está presente */
+#main-menu.mostrar {
+    display: block;
+    /* Agrega otros estilos necesarios para el menú visible */
+}
+
